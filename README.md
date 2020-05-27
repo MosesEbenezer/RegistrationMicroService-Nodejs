@@ -6,7 +6,7 @@ A microservice with Nodejs(Express) that will does the following:
 
 3. Allows the user to complete Registration/Add more profile details at a later time after initial signup. Login is required for the user to complete registration.
 
-4. User to add personal details following a specified route endpoint. /registration/personal-details
+4. User to add personal details following a specified route endpoint.  "/registration/personal-details".
 Personal Details should contain the following;
 - First name
 - Last name
@@ -15,7 +15,7 @@ Personal Details should contain the following;
 - password| Strong password check, Password confirmation
 - Date of birth (Must be 18years or older)
 
-5. User to add employment details following a specified route endpoint. /registration/employment_details
+5. User to add employment details following a specified route endpoint.  "/registration/employment_details". 
 Employment Details should contain:
 - Sector
 - Employement Status
@@ -25,7 +25,7 @@ Employment Details should contain:
 - Office Phone
 - Designation
 
-6. User to add bank details following a specified route endpoint. /registration/bank_details
+6. User to add bank details following a specified route endpoint.  "/registration/bank_details". 
 Bank Details should conatin:
 - Account number (Account Number should be a valid nuban number)
 - Bank
