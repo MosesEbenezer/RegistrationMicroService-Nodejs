@@ -33,3 +33,4 @@ Bank Details should conatin:
 
 PS:
 This is an initial attempt to get the above done. Please feel free to suggest corrections and improvements where necessary.
+Also don't forget to run: "npm install" so as to install all the dev dependencies.
