@@ -1,0 +1,42 @@
+{
+  "name": "registrationmicorservice",
+  "version": "1.0.0",
+  "description": "Registration Microservice with Nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "nyc mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MosesEbenezer/RegistrationMicroService.git"
+  },
+  "keywords": [
+    "Microservice",
+    "nodejs"
+  ],
+  "author": "Moses Ebenezer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MosesEbenezer/RegistrationMicroService/issues"
+  },
+  "homepage": "https://github.com/MosesEbenezer/RegistrationMicroService#readme",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.5.0",
+    "flutterwave-node": "^1.1.0",
+    "jsonwebtoken": "^8.5.1",
+    "moment": "^2.26.0",
+    "mongoose": "^5.9.15",
+    "nigerian-phone-number-validator": "^1.0.0",
+    "restify-errors": "^8.0.2",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.2.0",
+    "nyc": "^15.0.1",
+    "supertest": "^4.0.2"
+  }
+}
