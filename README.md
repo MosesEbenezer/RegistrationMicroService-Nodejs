@@ -6,7 +6,7 @@ A microservice with Nodejs(Express) that will does the following:
 
 3. Allows the user to complete Registration/Add more profile details at a later time after initial signup. Login is required for the user to complete registration.
 
-4. User to add personal details following a specified route endpoint.  "/registration/personal-details".
+4. User to add personal details following a specified route endpoint.  "/registration/personal_details".
 Personal Details should contain the following;
 - First name
 - Last name
