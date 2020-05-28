@@ -155,7 +155,7 @@ router.post('/registration/personal_details', checkJWT, (req, res, next) => {
                 if (!birthday.isValid()) {
                     throw new Error('Please enter a valid date');
                 } else if (eighteenYearsAgo.isAfter(birthday)) {
-                    return user.personalDetails.date_of_birth =  birthday;
+                    user.personalDetails.date_of_birth =  birthday;
                 } else {
                     throw new Error('You must be 18 years or older');
                 }
