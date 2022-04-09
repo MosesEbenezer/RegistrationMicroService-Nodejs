@@ -27,7 +27,7 @@
     "express-validator": "^6.5.0",
     "flutterwave-node": "^1.1.0",
     "jsonwebtoken": "^8.5.1",
-    "moment": "^2.26.0",
+    "moment": "^2.29.2",
     "mongoose": "^5.9.15",
     "nigerian-phone-number-validator": "^1.0.0",
     "restify-errors": "^8.0.2",
